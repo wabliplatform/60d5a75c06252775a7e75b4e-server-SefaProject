@@ -4,7 +4,8 @@ const Schema = mongoose.Schema;
 
 const formSchema = new Schema({
 Underscoreid:String , 
-formName:String 
+formName:String , 
+formEmail:String 
 
 })
 
